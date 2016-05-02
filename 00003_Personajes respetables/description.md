@@ -12,3 +12,5 @@ Quien = [marsellus, vincent, winston].
 ```
 
 Se espera que defina un predicado `nivelRespeto/2` que relacione el personaje con su nivel de respeto.
+
+Y puede asumir que **ya existe** un predicado `cantidadEncargos/2` que relaciona un personaje con la cantidad de encargos que tiene.
