@@ -19,8 +19,10 @@ personaje(mia,        actriz([foxForceFive])).
 personaje(butch,      boxeador).
 personaje(bernardo,   mafioso(cerebro)).
 personaje(bianca,     actriz([elPadrino1])).
+```
 
 También tenemos información de los encargos que le hacen los jefes a sus empleados, codificada en la base de la siguiente forma: 
+```prolog
 % encargo(Solicitante, Encargado, Tarea). 
 % las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
 encargo(marsellus, vincent,   cuidar(mia)).
@@ -31,8 +33,10 @@ encargo(marsellus, vincent, buscar(butch, losAngeles)).
 encargo(bernardo, vincent, buscar(jules, fuerteApache)).
 encargo(bernardo, winston, buscar(jules, sanMartin)).
 encargo(bernardo,  winston, buscar(jules, lugano)).
+```
 
 Por último contamos con la información de quién es amigo de quién:
+```prolog
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
