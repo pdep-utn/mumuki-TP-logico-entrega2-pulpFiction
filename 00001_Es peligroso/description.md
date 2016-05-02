@@ -5,7 +5,7 @@ Eso ocurre cuando:
 * realiza alguna actividad peligrosa: ser matón, o robar licorerías. 
 * o bien cuando tiene empleados peligrosos
 
-```prolog
+``` prolog
 ?- esPeligroso(Quien).
 Quien = vincent ;    %maton
 Quien = jules ;      %maton
