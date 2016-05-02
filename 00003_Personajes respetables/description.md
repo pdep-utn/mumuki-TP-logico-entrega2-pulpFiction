@@ -10,3 +10,5 @@ Es respetable cuando su actividad tiene un nivel de respeto mayor a 9. Se sabe q
 ?- personajesRespetables(Quien).
 Quien = [marsellus, vincent, winston].
 ```
+
+Se espera que defina un predicado `nivelRespeto/2` que relacione el personaje con su nivel de respeto.
