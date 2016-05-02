@@ -5,7 +5,7 @@ test('Nivel de respeto de Vincent es 15, porque es un matón y tiene 3 encargos'
   nivelRespeto(vincent, 15).
   
 test('Nivel de respeto de Marsellus es 20, porque es un mafioso capo'):-
-  nivelRespeto(vincent, 20).
+  nivelRespeto(marsellus, 20).
     
 test('Nivel de respeto de Winston es 10, porque es un mafioso que resuelve problemas'):-
   nivelRespeto(winston, 10).
