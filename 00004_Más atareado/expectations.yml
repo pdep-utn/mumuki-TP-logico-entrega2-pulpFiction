@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: masAtareado
-  inspection: HasUsgage:forall
+  inspection: HasUsage:forall
