@@ -35,3 +35,6 @@ trabajaPara(Empleador, bernardo):-trabajaPara(marsellus, Empleador), Empleador \
 
 % George trabaja para todos los que salen con Bernardo
 trabajaPara(Empleador, george):-saleCon(Empleador, bernardo).
+
+saleCon(Uno, Otro):-pareja(Uno, Otro).
+saleCon(Otro, Uno):-pareja(Uno, Otro).
