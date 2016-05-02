@@ -8,7 +8,7 @@ test('Nivel de respeto de Marsellus es 20, porque es un mafioso capo'):-
   nivelRespeto(vincent, 20).
     
 test('Nivel de respeto de Winston es 10, porque es un mafioso que resuelve problemas'):-
-  nivelRespeto(vincent, 10).
+  nivelRespeto(winston, 10).
   
 test('Marsellus, Vincent y Winston son respetables', set(Quien = [[marsellus, vincent, winston]] )):-
   personajesRespetables(Quien).
