@@ -1,4 +1,4 @@
-> esPeligroso/1. Nos dice si un personaje es peligroso. 
+> **esPeligroso/1**: nos dice si un personaje es peligroso. 
 
 Eso ocurre cuando:
 
