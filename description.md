@@ -1,5 +1,5 @@
 
-# Entrega 2: Polimorfismo. Functores. Aritmética. Predicados de orden superior.
+## Entrega 2: Polimorfismo. Functores. Aritmética. Predicados de orden superior.
 
 Agregamos la siguiente información a nuestra base de conocimientos sobre 
 
