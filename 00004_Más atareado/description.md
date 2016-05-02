@@ -2,3 +2,4 @@
 
 Resolverlo mediante `forall/1`
 
+Debe además resolver el predicado cantidadEncargos/2, que relaciona un personaje con la cantidad de encargos.
