@@ -44,5 +44,5 @@ amigo(jules, jimmie).
 amigo(vincent, elVendedor).
 ```
 
-## ¡Todos los predicados deben ser inversibles!
 :eyes:
+## ¡Todos los predicados deben ser inversibles!
