@@ -38,3 +38,8 @@ trabajaPara(Empleador, george):-saleCon(Empleador, bernardo).
 
 saleCon(Uno, Otro):-pareja(Uno, Otro).
 saleCon(Otro, Uno):-pareja(Uno, Otro).
+
+pareja(bernardo,    bianca).
+pareja(bernardo,    charo).
+pareja(marsellus, mia).
+pareja(pumkin,    honeyBunny).
