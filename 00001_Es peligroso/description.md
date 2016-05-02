@@ -7,10 +7,10 @@ Eso ocurre cuando:
 
 ```prolog
 ?- esPeligroso(Quien).
-Quien = vincent ;    % maton
-Quien = jules ;      % maton
-Quien = pumkin ;     % roba licorerías
-Quien = honeyBunny ; % roba licorerías
-Quien = bernardo ;   % tiene a Vincent como empleado, que como vemos es peligroso
+Quien = vincent ;    %maton
+Quien = jules ;      %maton
+Quien = pumkin ;     %roba licorerías
+Quien = honeyBunny ; %roba licorerías
+Quien = bernardo ;   %tiene a Vincent como empleado, que como vemos es peligroso
 false.
 ```
