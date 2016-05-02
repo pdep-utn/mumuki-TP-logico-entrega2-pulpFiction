@@ -1,0 +1,1 @@
+El personaje más atareado es aquel que para ningún otro personaje se verifica que tenga más encargos que él. O sea... para todos los otros personajes, tiene menos (o los mismos) encargos que él.
