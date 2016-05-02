@@ -1,0 +1,1 @@
+El predicado generador para forall/1 debe pensarse para todos los personajes que tengan cerca otros personajes. 
