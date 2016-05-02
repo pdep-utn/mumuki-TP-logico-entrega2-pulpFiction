@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: sanCayetano
-  inspection: 'HasUsage: forall'
+  inspection: 'HasBinding: forall'
