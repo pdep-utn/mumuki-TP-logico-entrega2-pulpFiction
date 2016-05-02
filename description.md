@@ -7,8 +7,8 @@ Agregamos la siguiente información a nuestra base de conocimientos sobre
 * encargos que le hacen los jefes a sus empleados
 * y quién es amigo de quién
  
-```prolog
-% Información base
+``` prolog
+%Información base
 personaje(pumkin,     ladron([licorerias, estacionesDeServicio])).
 personaje(honeyBunny, ladron([licorerias, estacionesDeServicio])).
 personaje(vincent,    mafioso(maton)).
@@ -23,9 +23,9 @@ personaje(bianca,     actriz([elPadrino1])).
 
 También tenemos información de los encargos que le hacen los jefes a sus empleados, codificada en la base de la siguiente forma: 
 
-```prolog
-% encargo(Solicitante, Encargado, Tarea). 
-% las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
+``` prolog
+%encargo(Solicitante, Encargado, Tarea). 
+%las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
 encargo(marsellus, vincent,   cuidar(mia)).
 encargo(vincent,  elVendedor, cuidar(mia)).
 encargo(marsellus, winston, ayudar(jules)).
@@ -38,7 +38,7 @@ encargo(bernardo,  winston, buscar(jules, lugano)).
 
 Por último contamos con la información de quién es amigo de quién:
 
-```prolog
+``` prolog
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
