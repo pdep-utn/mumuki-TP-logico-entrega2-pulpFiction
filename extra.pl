@@ -24,3 +24,11 @@ encargo(bernardo,  winston, buscar(jules, lugano)).
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
+
+% trabajaPara(Empleador, Empleado)
+trabajaPara(marsellus, vincent).
+trabajaPara(marsellus, jules).
+trabajaPara(marsellus, winston).
+
+% Bernardo trabaja para cualquiera que trabaja para marsellus (salvo para jules)
+trabajaPara(Empleador, bernardo):-trabajaPara(marsellus, Empleador), Empleador \= jules.
