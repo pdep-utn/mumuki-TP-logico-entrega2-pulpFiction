@@ -1,6 +1,6 @@
-test('Son fieles todos menos bernardo', set(Quien = [marsellus, pumkin, mia, honeyBunny, bianca, charo ] )):-
-  esFiel(Quien).
+test('Bernardo es San Cayetano', set(Quien = [bernardo ] )):-
+  sanCayetano(Quien).
 
-test('Vincent no puede ser fiel porque no tiene pareja'):-
-  not(esFiel(vincent)),
-  not(saleCon(vincent, _)).
+test('Ningún otro que no sea Bernardo es San Cayetano'):-
+  personaje(Personaje, _), not(bernardo \= Personaje),
+  not(sanCayetano(Personaje)).
