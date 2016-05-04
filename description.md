@@ -1,14 +1,14 @@
 
 Entrega 2: Polimorfismo. Functores. Aritmética. Predicados de orden superior.
 
-## Enunciado
+## Encargos especiales
 
-Agregamos la siguiente información a nuestra base de conocimientos sobre 
+La película avanza y llegan las escenas de acción.
 
-* personajes
-* encargos que le hacen los jefes a sus empleados
-* y quién es amigo de quién
- 
+A la información que ya disponemos de la primera parte, tanto los hechos iniciales como los predicados realizados, se agrega nueva información para poder resolver una serie de nuevos requerimientos.
+
+Tenemos más información sobre los personajes y nuevos protagonistas:
+
 ``` prolog
 %Información base
 personaje(pumkin,     ladron([licorerias, estacionesDeServicio])).
@@ -23,11 +23,11 @@ personaje(bernardo,   mafioso(cerebro)).
 personaje(bianca,     actriz([elPadrino1])).
 ```
 
-También tenemos información de los encargos que le hacen los jefes a sus empleados, codificada en la base de la siguiente forma: 
+También tenemos información de los encargos que hacen algunos personajes. Los encargos pueden ser de cuidar, ayudar o buscar y se implementan con diferentes functores; en todos se indica a quién y en los de buscar se indica una ubicacion.
+ , codificada en la base de la siguiente forma: 
 
 ``` prolog
 %encargo(Solicitante, Encargado, Tarea). 
-%las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
 encargo(marsellus, vincent,   cuidar(mia)).
 encargo(vincent,  elVendedor, cuidar(mia)).
 encargo(marsellus, winston, ayudar(jules)).
@@ -47,4 +47,4 @@ amigo(vincent, elVendedor).
 ```
 
 :eyes:
-## ¡Todos los predicados deben ser inversibles!
+## ¡Todos los predicados que se realicen deben ser inversibles!
