@@ -1,4 +1,0 @@
----
-expectations:
-- binding: personajesRespetables
-  inspection: HasUsage:findall
