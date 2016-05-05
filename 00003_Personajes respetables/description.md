@@ -4,7 +4,7 @@ Los indicadores son:
 * Para las actrices, la décima parte de su cantidad de peliculas.
 * Para los mafiosos que resuelven problemas es 10, mientras que para los capos asciende a 20. 
 * Para los ladrones de licorerias es 15.
-* Para el resto no se cuenta con un indicador y tampoco se calcula el nivel de respeto (por mas que tenga encargos). 
+* Para el resto no se cuenta con un indicador y tampoco se calcula el nivel de respeto (por mas que tenga encargues). 
 
 ```
 ?- nivelRespeto(winston,Nivel).
