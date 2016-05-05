@@ -1,6 +1,8 @@
 Realizar el predicado `nivelRespeto/2` que relaciona a un personaje con su nivel de respeto.
 El nivel de respeto se calcula como un indicador que depende de la ocupación más la cantidad de encargos que le dieron de buscar a alguien en Lugano.
+
 Los indicadores son:
+
 * Para las actrices, la décima parte de su cantidad de peliculas.
 * Para los mafiosos que resuelven problemas es 10, mientras que para los capos asciende a 20. 
 * Para los ladrones de licorerias es 15.
