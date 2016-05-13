@@ -1,5 +1,12 @@
-> masAtareado/1. Es el mas atareado aquel que tenga más encargos que cualquier otro personaje.
+Se quiere averiguar cual es el personaje mas atareado, que es quien más encargos tenga. 
 
-Resolverlo mediante `forall/1`
+Para ello es necesario definir tambien un predicado `cantidadEncargos/2` que relaciona un personaje con la cantidad de encargos que le hicieron. 
 
-Debe además resolver el predicado `cantidadEncargos/2`, que relaciona un personaje con la cantidad de encargos. 
+Como requisito, se debe utilizar `forall/1` en la resolucion
+
+```prolog
+? masAtareado(Quien).
+Quien = winston
+Porque tiene 4 encargos, mientras que vincent tiene 2 y el vendedor solo 1
+```
+
