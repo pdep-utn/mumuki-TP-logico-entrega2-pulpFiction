@@ -1,6 +1,6 @@
 Realizar el predicado `esPeligroso/1` que nos dice si un personaje es peligroso. 
 
-Eso ocurre cuando realiza alguna actividad peligrosa, como ser matón o robar licorerías, o bien cuando trabaja para el personajes algún empleado peligroso
+Eso ocurre cuando realiza alguna actividad peligrosa, como ser matón o robar licorerías, o bien cuando trabaja para el personaje algún empleado peligroso
 
 ``` prolog
 ?- esPeligroso(Quien).
