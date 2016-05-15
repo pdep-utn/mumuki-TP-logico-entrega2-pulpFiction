@@ -2,11 +2,11 @@ Se quiere averiguar cual es el personaje mas atareado, que es quien más encargo
 
 Para ello es necesario definir tambien un predicado `cantidadEncargos/2` que relaciona un personaje con la cantidad de encargos que le hicieron. 
 
-Como requisito, se debe utilizar `forall/1` en la resolucion
+Como requisito, se debe utilizar `forall/1` en la resolución.
 
 ```prolog
 ? masAtareado(Quien).
 Quien = winston
-Porque tiene 4 encargos, mientras que vincent tiene 2 y el vendedor sólo 1
+Porque tiene 4 encargos, mientras que vincent tiene 2 y el vendedor sólo 1.
 ```
 
