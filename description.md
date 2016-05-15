@@ -23,8 +23,7 @@ personaje(bernardo,   mafioso(cerebro)).
 personaje(bianca,     actriz([elPadrino1])).
 ```
 
-También tenemos información de los encargos que hacen algunos personajes. Los encargos pueden ser de cuidar, ayudar o buscar y se implementan con diferentes functores; en todos se indica a quién y en los de buscar se indica una ubicacion.
- , codificada en la base de la siguiente forma: 
+También tenemos información de los encargos que hacen algunos personajes. Los encargos pueden ser de cuidar, ayudar o buscar y se implementan con diferentes functores; en todos se indica a quién y en los de buscar se indica una ubicación. Esta información está codificada en la base de la siguiente forma: 
 
 ``` prolog
 %encargo(Solicitante, Encargado, Tarea). 
