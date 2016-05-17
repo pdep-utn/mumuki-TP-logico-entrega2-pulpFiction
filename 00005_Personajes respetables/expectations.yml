@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: mayoriaPersonajesRespetables
-  inspection: definition
+  inspection: exists
