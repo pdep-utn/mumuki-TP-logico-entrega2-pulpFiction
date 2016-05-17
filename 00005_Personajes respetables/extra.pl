@@ -1,7 +1,6 @@
 nivelRespeto(Personaje,Nivel):-
     personaje(Personaje,Ocupacion),
-    Personaje \= vincent,
-    respeto(Ocupacion, Indicador). 
+    respeto(Ocupacion, Nivel). 
 nivelRespeto(vincent,15).
     
 respeto(mafioso(resuelveProblemas),10).
