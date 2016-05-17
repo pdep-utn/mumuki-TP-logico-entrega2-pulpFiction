@@ -9,10 +9,3 @@ Respetables = 3
 NoRespetables = 7
 ```
 
-En base a esto, se quiere saber si la mayoria de los personajes son respetables.
-
-```prolog
-? mayoriaPersonajesRespetables.
-No
-```
-

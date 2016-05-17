@@ -1,1 +1,1 @@
-No se asusten! es un predicado sin parametros. Simplemente se verifica o no.
+Ojo con la inversibilidad al calcular la cantidad de los personajes que no son respetables
