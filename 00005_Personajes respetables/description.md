@@ -8,4 +8,4 @@ Se quiere averiguar la cantidad de personajes respetables y no respetables.
 Respetables = 3
 NoRespetables = 7
 ```
-
+Importante: definir un predicado auxiliar `respetable/1`
