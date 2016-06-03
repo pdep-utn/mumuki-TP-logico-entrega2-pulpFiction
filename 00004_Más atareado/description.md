@@ -7,6 +7,6 @@ Como requisito, se debe utilizar `forall/1` en la resolución.
 ```prolog
 ? masAtareado(Quien).
 Quien = winston
-Porque tiene 4 encargos, mientras que vincent tiene 2 y el vendedor sólo 1.
+Porque tiene 4 encargos, mientras que vincent tiene 3 y el vendedor sólo 1.
 ```
 
