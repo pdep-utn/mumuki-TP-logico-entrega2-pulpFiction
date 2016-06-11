@@ -9,4 +9,4 @@ Quien = bernardo ;
 false.
 ```
 
-Bernardo es San Cayetano, porque le da trabajo tanto a Winston como a Vincent, que son todos los que tiene cerca, ya que trabajan para él y no tiene amigos.
+Bernardo es San Cayetano, porque tiene cerca tanto a Winston como a Vincent (sus jefes), y les pide que hagan cosas (¡Qué atrevido!).
