@@ -5,4 +5,4 @@ test('vincent, marsellus y winston son respetables', set(Quien = [vincent, marse
   respetable(Quien).
 
 test('jules no es respetable', set(Quien = [pumkin, honeyBunny, jules, mia, butch, bernardo, bianca] )):-
-  not(respetable(Quien)).
+  personaje(Quien, _), not(respetable(Quien)).
