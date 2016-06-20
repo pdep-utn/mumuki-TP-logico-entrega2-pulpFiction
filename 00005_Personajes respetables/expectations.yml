@@ -2,3 +2,5 @@
 expectations:
 - binding: respetable
   inspection: HasBinding
+- binding: respetabilidad
+  inspection: hasUsage:findall
