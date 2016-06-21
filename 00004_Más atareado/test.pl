@@ -1,4 +1,4 @@
-test('El más atareado es vincent'):-
+test('El más atareado es winston'):-
   masAtareado(winston).
   
 test('El más atareado no es jules'):-
