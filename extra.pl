@@ -9,6 +9,7 @@ personaje(mia,        actriz([foxForceFive])).
 personaje(butch,      boxeador).
 personaje(bernardo,   mafioso(cerebro)).
 personaje(bianca,     actriz([elPadrino1])).
+personaje(elVendedor, vender([humo, iphone])).
 
 % encargo(Solicitante, Encargado, Tarea). 
 % las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
