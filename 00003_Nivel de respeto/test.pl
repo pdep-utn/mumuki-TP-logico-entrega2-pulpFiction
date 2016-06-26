@@ -10,5 +10,5 @@ test('Nivel de respeto de Winston es 10, porque resuelve problemas'):-
 test('Vincent tiene Nivel de respeto 15'):-
   nivelRespeto(vincent, 15).
 
-test('Jules no tiene Nivel de respeto 15'):-
+test('Jules no tiene Nivel de respeto'):-
   not(nivelRespeto(jules, _)).
