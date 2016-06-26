@@ -1,5 +1,5 @@
 test('Los personajes respetables son 2 de 10'):-
-  respetabilidad(3,8).
+  respetabilidad(2,8).
   
 test('vincent, marsellus y winston son respetables', set(Quien = [vincent, marsellus, winston] )):-
   respetable(Quien).
