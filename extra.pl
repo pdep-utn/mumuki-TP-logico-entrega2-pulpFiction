@@ -10,6 +10,8 @@ personaje(butch,      boxeador).
 personaje(bernardo,   mafioso(cerebro)).
 personaje(bianca,     actriz([elPadrino1])).
 personaje(elVendedor, vender([humo, iphone])).
+personaje(elVendedor, vender([humo, iphone])).
+personaje(jimmie,     vender([auto])).
 
 % encargo(Solicitante, Encargado, Tarea). 
 % las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)
